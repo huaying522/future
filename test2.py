@@ -26,6 +26,7 @@ for pz in pzs:
        'open_interest', 'close', 'high'])
     print(data.columns)
     print(data.index)
+    print(data.index)
     # data.to_csv('output.csv', index=True)
     # 插入数据
     # data.to_sql('dd_future_quota_rq', engine, index=True, if_exists='append')
