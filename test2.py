@@ -27,6 +27,7 @@ for pz in pzs:
     print(data.columns)
     print(data.index)
     print(data.index)
+    print(data.index, "modified")
     # data.to_csv('output.csv', index=True)
     # 插入数据
     # data.to_sql('dd_future_quota_rq', engine, index=True, if_exists='append')
